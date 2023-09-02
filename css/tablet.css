@@ -1,0 +1,107 @@
+/* CSS DOCUMENT */
+
+body { background: #212821;
+		height: 100%,}
+
+.wraper {
+    background: #87a184;
+    width: 100%;
+	height: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+}
+
+.top  {
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+	height: 100%;
+}
+
+.top  img{
+    position: relative;
+    padding-bottom: 3px;  
+}
+
+.top  img {
+    position: relative;
+    padding-bottom: 3px;  
+}
+
+#logo {
+    width: 25%;
+}
+.soc_media {
+    position: absolute;
+    top: 10px;
+	right: 10px;
+	height: 100%;
+}
+
+
+
+.soc_media ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    width: 314px;
+    font-weight: bolder;
+    bottom: 1%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+.navlistitem a {    
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #404E3F;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.navlistitem a:hover {
+    color: #BFCBBE;
+    text-decoration: none;
+}
+
+#welcome {
+	border-right: thin #212821 solid;	
+}
+
+#about_us {
+	border-right: thin #212821 solid;	
+}
+
+#portfolio {
+	border-right: thin #212821 solid;	
+}
+
+.content {
+    position: relative;
+    overflow-y: hidden;
+    z-index: 2;
+    background-image: url(../images/bg/linijos1.png);
+	background-size: 1600px;
+    border-top: 2px solid #404E3F;
+} 
+
+#banner_bg {
+    width: 95%;
+    float: right;
+}
